@@ -1,32 +1,14 @@
-/**
- * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
- */
  (function ($) {
     "use strict";
       $('.sakura-falling').sakura();
 })(jQuery);
-
-/**
- *
- * Despite so many new Bollywood and English song options, I prefered to use two-decade-old song, Din Shagna Da!
- *
- * Ever attended a North Indian Wedding? As soon as the DJ plays Din Shagna Da song, it means that the much-awaited moment is here
- * and the bride is all set to put her first foot forward to the wedding venue under a breathtaking phoolon ki chaadar.
- * Let's keep the sky-high status of this song untouched!
- *
- * When the website is backed up with a soul-stirring track, the feeling becomes absolutely surreal. 
- * Choose a heart-touching track! 🎵 ❤️
- *
- * Listen here: https://youtu.be/X0MDALpV29s
- *
- */
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 4, 2023 00:00:00").getTime();
+var countDownDate = new Date("Jun 4, 2023 11:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -49,7 +31,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "एक खुशियों भरी शादीशुदा जिंदगी मुबारक हो!";
+        document.getElementById("time").innerHTML = "Wish you a happy Married Life!!";
     }
 }, 1000);
 
