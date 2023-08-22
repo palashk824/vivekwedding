@@ -8,7 +8,7 @@ $(document).on('scroll', function(){
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jun 4, 2024 11:30:00").getTime();
+var countDownDate = new Date("Feb 19, 2024 11:30:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
